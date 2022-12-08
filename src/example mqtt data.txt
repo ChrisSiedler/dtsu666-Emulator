@@ -1,0 +1,39 @@
+Topic: powermeter/power
+{
+    "lv": "",
+    "id": "",
+    "type": "",
+    "P": 387,
+    "P1": 0,
+    "P2": 0,
+    "P3": 0,
+    "Q": 0,
+    "PO": 438,
+    "PO1": 0,
+    "PO2": 0,
+    "PO3": 0,
+    "QO": 0,
+    "I1": 2.25,
+    "I2": 0.96,
+    "I3": 1.08,
+    "U1": 229.7,
+    "U2": 237,
+    "U3": 235.7,
+    "PF": -0.23,
+    "PF1": 0,
+    "PF2": 0,
+    "PF3": 0
+}
+
+
+Topic: powermeter/energY
+{
+    "tPI": 6204.28,
+    "tPO": 131.35,
+    "tQI": 0,
+    "tQO": 0,
+    "rtc": 1670509450
+}
+
+#----------
+see: https://github.com/gskjold/AmsToMqttBridge/wiki/MQTT-configuration
