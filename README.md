@@ -14,7 +14,7 @@ I have a Growatt SPH photovoltaik inverter, which expects an DTSU666 smartmeter 
 For the inverter this is necessay, to know when to charge the battery, show correct energy flow status, and so on...
 
 However, I already have this information available from the smartmeter of the grid provider (see project: [AmsToMqttBridge](https://github.com/gskjold/AmsToMqttBridge)).
-For me it redundant, to have two smartmeter installed, I wanted to avoid the RS485 cabeling between smart meter and inverter.
+So for me it would be redundant to have two smartmeter installed. Additionally I wanted to avoid the RS485 cabeling between smart meter and inverter.
 
 
 This project takes the provided info from MQTT, modifies it as needed and emulates the dtsu666 smartmeter to be used by the growatt inverter.
